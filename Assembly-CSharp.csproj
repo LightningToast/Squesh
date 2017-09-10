@@ -53,7 +53,11 @@
   <ItemGroup>
      <Compile Include="Assets\Character.cs" />
      <Compile Include="Assets\GameController.cs" />
+     <Compile Include="Assets\SceneDestroyer.cs" />
      <Compile Include="Assets\Squesher.cs" />
+     <Compile Include="Assets\WorldMove.cs" />
+     <Compile Include="Assets\WorldReact.cs" />
+     <Compile Include="Assets\WorldSpawn.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

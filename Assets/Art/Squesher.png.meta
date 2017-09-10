@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 3a45cee450d9f4d4c9295a1f9c76c4b6
-timeCreated: 1505073629
+timeCreated: 1505078731
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Squesher_0
+    21300002: Squesher_1
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -99,6 +100,20 @@ TextureImporter:
         y: 136
         width: 295
         height: 547
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Squesher_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 317
+        width: 239
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
