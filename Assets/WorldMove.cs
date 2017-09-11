@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WorldMove : MonoBehaviour {
 	GameController gameController;
+	public float offset = 0.0f;
 	// Use this for initialization
 	void Start () {
 		gameController = GameObject.Find ("GameController").GetComponent<GameController> ();
@@ -13,7 +14,7 @@ public class WorldMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Vector2 curPos = this.transform.position;
-		this.transform.position = new Vector2 (curPos.x - 0.04f * gameController.getWalking (), curPos.y);
+		this.transform.position = new Vector2 (curPos.x - 0.06f * gameController.getWalking () + offset, curPos.y);
 
 		if(transform.position.y < -10.0f) {
 			this.GetComponent<WorldReact> ().deactivate ();
